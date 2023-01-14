@@ -1,0 +1,20 @@
+.first{
+    background-color:#EEEFF1;
+    padding-top: calc(162px - 72px);
+}
+
+.first__img{
+    float: left;
+    width: 360px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.first__img img{
+    width: 100%;
+}
+
+.first__info{
+    float: right;
+    width: calc(50% - 16px);
+}
