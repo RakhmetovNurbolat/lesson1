@@ -1,4 +1,6 @@
-@import "style.css";
-@import "header/header.css";
-@import "first/first.css";
-@import "button/button.css";
+@import "mixin";
+@import "var";
+@import "style";
+@import "header/header";
+@import "first/first";
+@import "button/button";

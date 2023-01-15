@@ -8,12 +8,12 @@
 body{
     font-family: "Roboto";
     font-size: 16px;
-    color: #727272;
+    color: $color-text-primary;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: $color-item;
 }
 
 h1{
@@ -21,12 +21,12 @@ h1{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #000;
+    color: $color-title;
 }
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: $wrapper-width;
 }
 
 .clearfix{
