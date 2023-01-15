@@ -39,5 +39,36 @@
             font-weight: $font-medium;
         }
     }
+}
 
+.header{
+    
+    @media (max-width: $tablet) {
+        padding: 36px 0;
+        &__logo, &__nav{
+            float: none;
+        }
+        &__logo{
+            margin: 0 auto;
+        }
+        &__nav{
+            width: max-content;
+            margin: 0 auto;
+            margin-top: 16px;
+            li{
+                margin-right: 36px;
+            }
+        }
+    }
+
+    @media (max-width: $mobile){
+        &__nav{
+            li{
+                float: none;
+                margin-right: 0;
+                
+                text-align: center;
+            }
+        }
+    }
 }
