@@ -1,6 +1,7 @@
 .first{
     background-color:#EEEFF1;
-    padding-top: calc(162px - 72px);
+    padding-top: calc(148px - 72px);
+    padding-bottom: 146px;
 }
 
 .first__img{
@@ -17,4 +18,15 @@
 .first__info{
     float: right;
     width: calc(50% - 16px);
+}
+.first__info h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.first__info p{
+    margin-top: 60px;
+}
+.first__info .button{
+    margin-top: 60px;
 }
