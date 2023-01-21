@@ -5,10 +5,21 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Roboto";
   font-size: 16px;
   color: #727272;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 a {
@@ -42,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   background-color: #EEEFF1;
   padding: 72px 0;
+  flex: 0 0 auto;
 }
 .header__logo {
   float: left;
@@ -140,6 +152,12 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   text-transform: uppercase;
   text-align: center;
+}
+
+.footer {
+  background-color: #34547A;
+  height: 50px;
+  flex: 0 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */
