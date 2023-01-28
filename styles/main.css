@@ -116,32 +116,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.first__info p, .first__info .button {
-  margin-top: 60px;
-}
-
 .first {
   background-color: #EEEFF1;
-  padding-top: 76px;
-  padding-bottom: 146px;
 }
-.first__img {
-  float: left;
-  width: 360px;
-  margin-left: 80px;
-  margin-top: 20px;
-}
-.first__img img {
-  width: 100%;
-}
-.first__info {
-  float: right;
-  width: calc(50% - 16px);
-}
-.first__info h1 {
-  font-size: 48px;
-  font-weight: 500;
-}
+
 .button {
   width: 224px;
   height: 64px;
