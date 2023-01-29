@@ -1,0 +1,35 @@
+.about{
+    padding: 100px 0;
+    &_gray{
+        background-color: $color-gray;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 57px;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        max-width: 540px;
+        row-gap: 50px;
+    }
+    &__video{
+        width: 100%;
+    }
+}
+
+.about{
+    @media (max-width: $mobile) {
+        padding: 50px 0;
+        .wrapper{
+            row-gap: 40px;
+        }
+        &__text{
+            row-gap: 20px;
+        }   
+    }
+}

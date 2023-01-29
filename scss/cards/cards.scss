@@ -1,0 +1,42 @@
+.cards{
+    background-color: $color-primary;
+    padding: 100px 0;
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    @media (max-width: $mobile){
+        padding: 50px 0;
+        .wrapper{
+            justify-content: center;
+        }
+    }
+}
+
+.card{
+    display: flex;
+    column-gap: 20px;
+    
+    &__text{
+        display: flex;
+        flex-direction: column;
+        row-gap: 14px;
+        color: $color-white;
+    }
+    &__icon{
+        width: 50px;
+        img{
+            width: 100%;
+        }
+    }
+    &__number{
+        font-size: 21px;
+    }
+
+    &__title{
+        font-size: 16px;
+    }
+}
