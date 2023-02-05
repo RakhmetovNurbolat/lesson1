@@ -316,6 +316,43 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.gallery__item {
+  aspect-ratio: 1/1;
+  position: relative;
+}
+.gallery__item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery__item:before, .gallery__item:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 1s;
+}
+.gallery__item:before {
+  background-color: rgba(52, 84, 122, 0.8);
+}
+.gallery__item:after {
+  background-image: url(../img/glaz.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.gallery__item:hover:before, .gallery__item:hover:after {
+  opacity: 1;
+}
+
 .footer {
   background-color: #34547A;
   height: 50px;
